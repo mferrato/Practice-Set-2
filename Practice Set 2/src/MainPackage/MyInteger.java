@@ -53,6 +53,7 @@ public class MyInteger {
 	public static boolean isPrime(MyInteger value){
 		return MyInteger.isPrime(value);
 	}
+	
 	// equals(int), equals(MyInteger) Methods
 	public boolean equals(int value){
 		return this.value == value;
@@ -60,6 +61,7 @@ public class MyInteger {
 	public boolean equals(MyInteger value){
 		return equals(getMyInteger());
 	}
+	
 	// parseInt(char[]), parseInt(String) Methods
 	public static int parseInt(char[] Array){
 		int number = Integer.parseInt(new String(Array));
